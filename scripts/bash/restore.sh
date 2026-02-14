@@ -43,7 +43,7 @@ declare -A file_mappings=(
     
     # Local bin files
     ["$HOME/dotfiles/bin/pomo"]="$HOME/.local/bin"
-    ["$HOME/dotfiles/bin/traumhound"]="$HOME/.local/bin"
+    ["$HOME/dotfiles/bin/kintamahound"]="$HOME/.local/bin"
     
     # Fish config
     ["$HOME/dotfiles/fish/config.fish"]="$HOME/.config/fish"

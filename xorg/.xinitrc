@@ -49,9 +49,9 @@ sed -e "s/${DUNST_FONT}/$DUNST_FONT/g" \
     -e "s/${DUNST_ICON_SIZE}/$DUNST_ICON_SIZE/g" \
     ~/dotfiles/dunst/dunstrc.template > ~/.config/dunst/dunstrc
 sed -e "s/\${FIREFOX_FONT}/$FIREFOX_FONT/g" \
-    ~/dotfiles/firefox/traum/user.js.template > ~/dotfiles/firefox/traum/user.js
+    ~/dotfiles/firefox/kintama/user.js.template > ~/dotfiles/firefox/kintama/user.js
 sed -e "s/\${FIREFOX_FONT}/$FIREFOX_FONT/g" \
-    ~/dotfiles/firefox/traum/chrome/userChrome.css.template > ~/dotfiles/firefox/traum/chrome/userChrome.css
+    ~/dotfiles/firefox/kintama/chrome/userChrome.css.template > ~/dotfiles/firefox/kintama/chrome/userChrome.css
 sed -e "s/\${FIREFOX_FONT}/$FIREFOX_FONT/g" \
-    ~/dotfiles/firefox/traum/chrome/userContent.css.template > ~/dotfiles/firefox/traum/chrome/userContent.css
+    ~/dotfiles/firefox/kintama/chrome/userContent.css.template > ~/dotfiles/firefox/kintama/chrome/userContent.css
 exec i3

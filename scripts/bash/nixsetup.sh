@@ -31,12 +31,12 @@ check_prerequisites() {
 }
 
 replace_username() {
-    log "Replacing 'traum' with current user '$CURRENT_USER' throughout dotfiles..."
+    log "Replacing 'kintama' with current user '$CURRENT_USER' throughout dotfiles..."
     
     # Find all files (excluding .git directory and binary files)
-    find "$DOTFILES_DIR" -type f -not -path "*/.git/*" -not -name "*.png" -not -name "*.jpg" -not -name "*.jpeg" -not -name "*.gif" -not -name "*.ico" -not -name "*.svg" -exec grep -l "traum" {} \; 2>/dev/null | while read -r file; do
+    find "$DOTFILES_DIR" -type f -not -path "*/.git/*" -not -name "*.png" -not -name "*.jpg" -not -name "*.jpeg" -not -name "*.gif" -not -name "*.ico" -not -name "*.svg" -exec grep -l "kintama" {} \; 2>/dev/null | while read -r file; do
         log "Updating file: $file"
-        sed -i "s/traum/$CURRENT_USER/g" "$file"
+        sed -i "s/kintama/$CURRENT_USER/g" "$file"
     done
     
     log "Username replacement completed"

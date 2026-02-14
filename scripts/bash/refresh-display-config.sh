@@ -37,11 +37,11 @@ sed -e "s/\${ALACRITTY_FONT_SIZE}/$ALACRITTY_FONT_SIZE/g" \
 
 # Regenerate Firefox configs
 sed -e "s/\${FIREFOX_FONT}/$FIREFOX_FONT/g" \
-    ~/dotfiles/firefox/traum/user.js.template > ~/dotfiles/firefox/traum/user.js
+    ~/dotfiles/firefox/kintama/user.js.template > ~/dotfiles/firefox/kintama/user.js
 sed -e "s/\${FIREFOX_FONT}/$FIREFOX_FONT/g" \
-    ~/dotfiles/firefox/traum/chrome/userChrome.css.template > ~/dotfiles/firefox/traum/chrome/userChrome.css
+    ~/dotfiles/firefox/kintama/chrome/userChrome.css.template > ~/dotfiles/firefox/kintama/chrome/userChrome.css
 sed -e "s/\${FIREFOX_FONT}/$FIREFOX_FONT/g" \
-    ~/dotfiles/firefox/traum/chrome/userContent.css.template > ~/dotfiles/firefox/traum/chrome/userContent.css
+    ~/dotfiles/firefox/kintama/chrome/userContent.css.template > ~/dotfiles/firefox/kintama/chrome/userContent.css
 
 # Regenerate Obsidian font config
 sed -e "s/\${OBSIDIAN_FONT}/$OBSIDIAN_FONT/g" \

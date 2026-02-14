@@ -72,9 +72,9 @@
   #hardware.pulseaudio.enable = true;
 
   # Define user account
-  users.users.traum = {
+  users.users.kintama = {
     isNormalUser = true;
-    description = "Traum";
+    description = "Kintama";
     extraGroups = [ "audio" "networkmanager" "wheel" "docker" ];
     shell = pkgs.zsh;
   };
@@ -87,7 +87,7 @@
 
   # No password sudo for user
   security.sudo.extraRules = [
-    { users = [ "traum" ];
+    { users = [ "kintama" ];
       commands = [
         { command = "ALL";
           options = [ "NOPASSWD" ];

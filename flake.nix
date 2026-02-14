@@ -139,7 +139,7 @@ in {
             {
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
-              home-manager.users.traum = import ./modules/home.nix;
+              home-manager.users.kintama = import ./modules/home.nix;
               home-manager.backupFileExtension = "backup";
             }
             */

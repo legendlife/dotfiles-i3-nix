@@ -17,7 +17,7 @@ touch "$LOCKFILE"
 
 sleep 1
 
-# Set environment to talk to traum's X session
+# Set environment to talk to kintama's X session
 export DISPLAY=:0
 export XAUTHORITY="~/.Xauthority"
 export HOME="~"
