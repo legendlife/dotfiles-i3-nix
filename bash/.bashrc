@@ -118,4 +118,4 @@ alias wifirestore='~/dotfiles/scripts/bash/wifirestore.sh'
 
 # Load pywal colors
 #cat ~/.cache/wal/sequences
-#cat /home/traum/.cache/wal/sequences
+#cat ~/.cache/wal/sequences

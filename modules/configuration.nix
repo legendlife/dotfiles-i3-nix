@@ -18,11 +18,11 @@ systemd.services.i3lock-on-suspend = {
     Type = "forking";
     Environment = [
       "DISPLAY=:0"
-      "XAUTHORITY=/home/traum/.Xauthority"
-      "HOME=/home/traum"
+      "XAUTHORITY=~/.Xauthority"
+      "HOME=~"
       "PATH=/run/current-system/sw/bin"
     ];
-    ExecStart = "/home/traum/dotfiles/scripts/bash/lock.sh";
+    ExecStart = "~/dotfiles/scripts/bash/lock.sh";
   };
 };
 

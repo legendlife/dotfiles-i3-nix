@@ -60,7 +60,7 @@ systemd.services.network-emergency = {
 description = "Emergency network recovery";
 serviceConfig = {
 Type = "oneshot";
-ExecStart = "/home/traum/splix/scripts/generated-configs/emergency-recovery.sh";
+ExecStart = "~/splix/scripts/generated-configs/emergency-recovery.sh";
 RemainAfterExit = false;
 };
 };

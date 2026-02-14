@@ -5,7 +5,7 @@
 #
 # === INTERACTIVE BLOCK ===
 if status is-interactive
-    cat /home/traum/.cache/wal/sequences
+    cat ~/.cache/wal/sequences
     fish_vi_key_bindings
     
     # Auto-start recording if flag exists
