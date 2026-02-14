@@ -19,8 +19,8 @@ sleep 1
 
 # Set environment to talk to traum's X session
 export DISPLAY=:0
-export XAUTHORITY="/home/traum/.Xauthority"
-export HOME="/home/traum"
+export XAUTHORITY="~/.Xauthority"
+export HOME="~"
 
 # Get displays
 INTERNAL=$(xrandr | grep "eDP" | grep " connected" | cut -d' ' -f1)
@@ -40,6 +40,6 @@ fi
 echo "$(date): Triggering polybar restart via i3" >> "$LOGFILE"
 
 # Restart polybar via i3-msg
-i3-msg exec /home/traum/dotfiles/scripts/bash/polybar-restart.sh >> "$LOGFILE" 2>&1
+i3-msg exec ~/dotfiles/scripts/bash/polybar-restart.sh >> "$LOGFILE" 2>&1
 
 echo "$(date): Done" >> "$LOGFILE"

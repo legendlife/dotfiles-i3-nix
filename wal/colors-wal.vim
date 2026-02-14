@@ -1,5 +1,5 @@
 " Special
-let wallpaper  = "/home/traum/Wallpapers/Shoreline.png"
+let wallpaper  = "~/Wallpapers/Shoreline.png"
 let background = "#0C0F14"
 let foreground = "#e5e8ed"
 let cursor     = "#e5e8ed"

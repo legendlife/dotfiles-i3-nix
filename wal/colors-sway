@@ -1,4 +1,4 @@
-set $wallpaper /home/traum/Wallpapers/Shoreline.png
+set $wallpaper ~/Wallpapers/Shoreline.png
 
 set $background #0C0F14
 set $foreground #e5e8ed

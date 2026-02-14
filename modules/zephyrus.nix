@@ -26,7 +26,7 @@ specialisation.router.configuration = {
         wantedBy = [ "multi-user.target" ];
         serviceConfig = {
             Type = "oneshot";
-            ExecStart = "/home/traum/splix/scripts/generated-configs/deploy-router-vm.sh";
+            ExecStart = "~/splix/scripts/generated-configs/deploy-router-vm.sh";
             RemainAfterExit = true;
             User = "root";
         };
