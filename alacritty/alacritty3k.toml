@@ -1,4 +1,4 @@
-general.import = ["~/dotfiles/alacritty/alacritty.toml"]
+general.import = ["$HOME/dotfiles/alacritty/alacritty.toml"]
 
 [env]
 TERM = "xterm"

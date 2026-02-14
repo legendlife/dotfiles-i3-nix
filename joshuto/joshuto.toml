@@ -85,7 +85,7 @@ reverse = false
 max_preview_size = 200971520
 
 # Executable script for previews
-preview_script = "~/.config/joshuto/preview_file.sh"
+preview_script = "$HOME/.config/joshuto/preview_file.sh"
 
 # Configurations related to searching and selecting files
 [search]
