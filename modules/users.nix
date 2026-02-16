@@ -8,8 +8,8 @@
 
 {
 
-# Defining user 'traum'
-users.users.traum = {
+# Defining user 'kintama'
+users.users.kintama = {
     isNormalUser = true;
     description = "A";
     extraGroups = [ "docker" "audio" "networkmanager" "wheel" "wireshark" "adbusers" ];
@@ -17,13 +17,13 @@ users.users.traum = {
     useDefaultShell = true;
 };
 
-services.getty.autologinUser = "traum";
+services.getty.autologinUser = "kintama";
 
 
-# Removing need for user "traum" to type password after sudo
-# Add your username here in place of "traum"
+# Removing need for user "kintama" to type password after sudo
+# Add your username here in place of "kintama"
 security.sudo.extraRules= [
-    {users = [ "traum" ];
+    {users = [ "kintama" ];
         commands = [
             { command = "ALL" ;
                 options= [ "NOPASSWD" ]; # "SETENV" # Adding the following could be a good idea

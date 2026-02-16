@@ -53,8 +53,8 @@ declare -A FILE_MAPPINGS=(
     ["$DOTFILES_DIR/polybar/config.ini.template"]="$HOME/.config/polybar"
     
     ["$DOTFILES_DIR/firefox/profiles.ini"]="$HOME/.mozilla/firefox"
-    ["$DOTFILES_DIR/firefox/traum/chrome"]="$HOME/.mozilla/firefox/traum"
-    ["$DOTFILES_DIR/firefox/traum/user.js"]="$HOME/.mozilla/firefox/traum"
+    ["$DOTFILES_DIR/firefox/kintama/chrome"]="$HOME/.mozilla/firefox/kintama"
+    ["$DOTFILES_DIR/firefox/kintama/user.js"]="$HOME/.mozilla/firefox/kintama"
     
     ["$DOTFILES_DIR/vim/.vimrc"]="$HOME"
     ["$DOTFILES_DIR/bash/.bashrc"]="$HOME"

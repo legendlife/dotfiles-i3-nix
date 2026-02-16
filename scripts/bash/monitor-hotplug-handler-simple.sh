@@ -17,10 +17,10 @@ touch "$LOCKFILE"
 
 sleep 1
 
-# Set environment to talk to traum's X session
+# Set environment to talk to kintama's X session
 export DISPLAY=:0
-export XAUTHORITY="~/.Xauthority"
-export HOME="~"
+export HOME="/home/kintama"
+export XAUTHORITY="$HOME/.Xauthority"
 
 # Get displays
 INTERNAL=$(xrandr | grep "eDP" | grep " connected" | cut -d' ' -f1)

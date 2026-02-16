@@ -1,8 +1,8 @@
 #!/run/current-system/sw/bin/bash
 
 # Expand tilde in paths
-SHELL_NIX_PATH="${HOME}/dotfiles/tools/traumhound/shell.nix"
-TRAUMHOUND_PATH="${HOME}/dotfiles/tools/traumhound/scanner.py"
+SHELL_NIX_PATH="${HOME}/dotfiles/tools/kintamahound/shell.nix"
+KINTAMAHOUND_PATH="${HOME}/dotfiles/tools/kintamahound/scanner.py"
 
 # Check if the shell.nix file exists
 if [ ! -f "$SHELL_NIX_PATH" ]; then
@@ -11,10 +11,10 @@ if [ ! -f "$SHELL_NIX_PATH" ]; then
 fi
 
 # Check if the nmappy script exists
-if [ ! -f "$TRAUMHOUND_PATH" ]; then
-    echo "Error: traumhound not found at $TRAUMHOUND_PATH"
+if [ ! -f "$KINTAMAHOUND_PATH" ]; then
+    echo "Error: kintamahound not found at $KINTAMAHOUND_PATH"
     exit 1
 fi
 
 # Run nmappy in the nix-shell environment
-nix-shell "$SHELL_NIX_PATH" --run "python $TRAUMHOUND_PATH $*"
+nix-shell "$SHELL_NIX_PATH" --run "python $KINTAMAHOUND_PATH $*"

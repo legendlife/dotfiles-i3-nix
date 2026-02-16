@@ -54,8 +54,8 @@ dotfiles_list = [
 for file_name in dotfiles_list:
     file_path = os.path.join(dotfiles_directory, file_name)
     if os.path.exists(file_path):
-        replace_text_in_file(file_path, "traum", real_user)
-        print(f"Replaced 'traum' with '{real_user}' in {file_path}")
+        replace_text_in_file(file_path, "kintama", real_user)
+        print(f"Replaced 'kintama' with '{real_user}' in {file_path}")
     else:
         print(f"File not found: {file_path}")
 

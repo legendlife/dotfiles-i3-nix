@@ -14,7 +14,7 @@
     wheelNeedsPassword = lib.mkForce true;
     extraRules = lib.mkForce [
       {
-        users = [ "traum" ]; # Replace with your username
+        users = [ "kintama" ]; # Replace with your username
         commands = [
           {
             command = "ALL";
@@ -45,7 +45,7 @@
       MaxAuthTries = 3;
       ClientAliveInterval = 300;
       ClientAliveCountMax = 2;
-      AllowUsers = [ "traum" ]; # Replace with your username
+      AllowUsers = [ "kintama" ]; # Replace with your username
       Port = 22;
     };
     extraConfig = ''
